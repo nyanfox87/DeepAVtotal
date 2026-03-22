@@ -1,0 +1,44 @@
+# ── Dependencies ───
+node_modules/
+frontend/node_modules/
+
+# ── Next.js ───
+frontend/.next/
+frontend/out/
+
+# ── Python ───
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Backend data ───
+backend/data/
+*.db
+
+# ── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Env ───
+.env
+.env.local
+.env*.local
+
+# ── Build ───
+dist/
+build/
+*.tsbuildinfo
+
+# ── Misc ───
+*.log
+npm-debug.log*
